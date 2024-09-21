@@ -16,7 +16,7 @@ const getMovieById = (id) => {
 const addMovie = (movie) => {
   let newMovie = { id: movies.length + 1, ...movie };
   books.push(newMovie);
-  return newBook;
+  return newMovie;
 };
 
 module.exports = { getMovies, getMovieById, addMovie };
