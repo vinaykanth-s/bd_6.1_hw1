@@ -15,7 +15,7 @@ const getMovieById = (id) => {
 
 const addMovie = (movie) => {
   let newMovie = { id: movies.length + 1, ...movie };
-  books.push(newMovie);
+  movies.push(newMovie);
   return newMovie;
 };
 
